@@ -64,10 +64,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Schermafbeelding 2020-09-02 om 14.59.26.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/image1.png)
 
 **Breakdown-schets(en):**
 
-![voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken](images/Schermafbeelding 2020-09-02 om 14.59.31.png)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/image2.png)
 
-![voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken](images/Schermafbeelding 2020-09-02 om 14.59.36.png)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/image3.png)
