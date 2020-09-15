@@ -3,21 +3,14 @@
 body {
     margin: 0;
     background-color: white;
-}
-
-
-header {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
+    font-family: 'Roboto', sans-serif;
+    /*    zorgt voor geen witruimte om de li's'*/
 }
 
 /* navigatie */
 
 header nav {
     background-color: #1D1D1F;
-    flex-grow: 1;
 
 }
 
@@ -26,26 +19,23 @@ header nav ul {
     padding: 0;
     list-style: none;
     display: flex;
+    /*    zorgt ervoor dat ze onder elkaar staan, flex*/
 }
 
 header nav li {
     min-width: 6em;
     flex-grow: 1;
+    /*    Dit vult de li is helemaal op*/
 }
 
 
 
 header nav a {
-    color: white;
-    background-color: #1D1D1F;
-    text-decoration: none;
-    outline: none;
     display: block;
     line-height: 2.5em;
     text-align: center;
     margin-top: 1em;
-    margin-bottom: -.5.em;
-    /* jouw code hier */
+    /*    basis opmaak*/
 }
 
 .applelogo {
@@ -54,23 +44,30 @@ header nav a {
 
 .menulogo {
     width: 25px;
+    margin-left: -4.5em;
+    margin-bottom: .3em;
 }
 
 .shoplogo {
     width: 20px;
+    margin-right: -4.5em
 }
+
+/*zorgt voor standaar grote pngs*/
 
 /* MAIN */
 
 main h1 {
     text-align: center;
-    font-size: 10px;
+    font-size: 12px;
     color: black;
     background-color: white;
     margin: 0;
     padding: 1em;
+    font-weight: lighter;
+    line-height: 1.6em;
 
-
+    /*standaar opmaak*/
 }
 
 /* de lijst met foto's */
@@ -81,12 +78,11 @@ main ul {
     padding: 0em;
     display: grid;
     grid-gap: 1em;
-    /*   display: block;*/
+    /*       display: block;*/
 }
 
 main li {
     position: relative;
-    background-color: white;
     display: flex;
     justify-content: center;
 
@@ -94,8 +90,10 @@ main li {
 
 main li:first-of-type {
     background-color: #131313;
-    width: 100%;
-    height: 80%;
+}
+
+main li:nth-last-of-type(1) {
+    background-color: #131313;
 }
 
 main h2:first-of-type {
@@ -104,7 +102,19 @@ main h2:first-of-type {
     justify-content: center;
     z-index: 1;
     color: white;
+
 }
+
+main h3:first-of-type {
+    text-align: center;
+    position: absolute;
+    justify-content: center;
+    z-index: 1;
+    color: black;
+    font-size: 24PX;
+
+}
+
 
 main p {
     color: white;
@@ -113,19 +123,34 @@ main p {
     z-index: 1;
     margin-top: 4em;
     text-align: center;
+    line-height: 1.4em;
 
 }
+
+main li a {
+    position: absolute;
+    margin-top: 35%;
+    z-index: 1;
+    word-spacing: 3em;
+    text-decoration: none;
+    color: #2997FF;
+}
+
 
 main img {
-    width: 100%;
-    height: auto;
-    position: relative;
-
-
+    width: 70%;
 }
 
-.tel {
-    display: block;
+
+.kleur {
+    color: black;
+}
+
+
+.tels {
+    width: 100%;
+    position: relative;
+    margin-top: 10em;
 
 }
 
