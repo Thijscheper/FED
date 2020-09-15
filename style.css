@@ -1,0 +1,161 @@
+/* CSS Document */
+
+body {
+    margin: 0;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    /*    zorgt voor geen witruimte om de li's'*/
+}
+
+/* navigatie */
+
+header nav {
+    background-color: #1D1D1F;
+
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    /*    zorgt ervoor dat ze onder elkaar staan, flex*/
+}
+
+header nav li {
+    min-width: 6em;
+    flex-grow: 1;
+    /*    Dit vult de li is helemaal op*/
+}
+
+
+
+header nav a {
+    display: block;
+    line-height: 2.5em;
+    text-align: center;
+    margin-top: 1em;
+    /*    basis opmaak*/
+}
+
+.applelogo {
+    width: 25px;
+}
+
+.menulogo {
+    width: 25px;
+    margin-left: -4.5em;
+    margin-bottom: .3em;
+}
+
+.shoplogo {
+    width: 20px;
+    margin-right: -4.5em
+}
+
+/*zorgt voor standaar grote pngs*/
+
+/* MAIN */
+
+main h1 {
+    text-align: center;
+    font-size: 12px;
+    color: black;
+    background-color: white;
+    margin: 0;
+    padding: 1em;
+    font-weight: lighter;
+    line-height: 1.6em;
+
+    /*standaar opmaak*/
+}
+
+/* de lijst met foto's */
+
+main ul {
+    list-style: none;
+    margin: 0;
+    padding: 0em;
+    display: grid;
+    grid-gap: 1em;
+    /*       display: block;*/
+}
+
+main li {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+main li:first-of-type {
+    background-color: #131313;
+}
+
+main li:nth-last-of-type(1) {
+    background-color: #131313;
+}
+
+main h2:first-of-type {
+    text-align: center;
+    position: absolute;
+    justify-content: center;
+    z-index: 1;
+    color: white;
+
+}
+
+main h3:first-of-type {
+    text-align: center;
+    position: absolute;
+    justify-content: center;
+    z-index: 1;
+    color: black;
+    font-size: 24PX;
+
+}
+
+
+main p {
+    color: white;
+    position: absolute;
+    width: 50%;
+    z-index: 1;
+    margin-top: 4em;
+    text-align: center;
+    line-height: 1.4em;
+
+}
+
+main li a {
+    position: absolute;
+    margin-top: 35%;
+    z-index: 1;
+    word-spacing: 3em;
+    text-decoration: none;
+    color: #2997FF;
+}
+
+
+main img {
+    width: 70%;
+}
+
+
+.kleur {
+    color: black;
+}
+
+
+.tels {
+    width: 100%;
+    position: relative;
+    margin-top: 10em;
+
+}
+
+@media (min-width:24em) {
+    main ul {
+        grid-template-columns: repeat( auto-fit, minmax(20em, 1fr));
+    }
+}
