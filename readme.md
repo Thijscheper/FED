@@ -39,9 +39,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ### Stand van zaken
 
 Ik vind het nog lastig om bepaalde vlakken goed te positioneren, en vooral om ze mee te laten schalen. Dat gaat nog fout.
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/alink.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/alink2.png)
 
 Ook vind ik het soms lastig om het juiste element op een goede manier op te roepen zonder een class of ID te gebruiken
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/apple.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/lih23.png)
 **Screenshot(s):**
 
 -screenshot(s) van hoe ver je bent-
