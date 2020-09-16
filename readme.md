@@ -52,8 +52,9 @@ Tot nu toe ziet het er zo uit op mobiel
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Progressie3.png)
 
 ### Agenda voor meeting
-
--samen met je groepje opstellen-
+- Het goed kunnen oproepen van H2tjes bijv
+- het goed kunnen weg zetten van dingen onder elkaar.
+- En het responsive maken
 
 ### Verslag van meeting
 
