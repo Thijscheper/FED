@@ -85,7 +85,7 @@ main li {
     position: relative;
     display: flex;
     justify-content: center;
-
+    /*    Zorgt ervoor dat alles binnen de li netjes gecentreerd staat*/
 }
 
 main li:first-of-type {
@@ -150,6 +150,14 @@ main img {
     width: 100%;
     position: relative;
     margin-top: 10em;
+
+}
+
+.ipad {
+    width: 100%;
+    position: relative;
+    margin-top: 12em;
+    margin-bottom: 4em;
 
 }
 
