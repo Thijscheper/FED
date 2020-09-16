@@ -46,7 +46,10 @@ Ook vind ik het soms lastig om het juiste element op een goede manier op te roep
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/lih23.png)
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent-
+Tot nu toe ziet het er zo uit op mobiel
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Progressie1.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Progressie2.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Progressie3.png)
 
 ### Agenda voor meeting
 
