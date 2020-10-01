@@ -1,0 +1,121 @@
+/* CSS Document */
+
+body {
+    margin: 0;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    /*    zorgt voor geen witruimte om de li's'*/
+}
+
+/* navigatie */
+
+header nav {
+    background-color: #1D1D1F;
+
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    /*    zorgt ervoor dat ze onder elkaar staan, flex*/
+}
+
+header nav li {
+    min-width: 6em;
+    flex-grow: 1;
+    /*    Dit vult de li is helemaal op*/
+}
+
+
+
+header nav a {
+    display: block;
+    line-height: 2.5em;
+    text-align: center;
+    margin-top: 1em;
+    /*    basis opmaak*/
+}
+
+.applelogo {
+    width: 25px;
+}
+
+.menulogo {
+    width: 25px;
+    margin-left: -4.5em;
+    margin-bottom: .3em;
+}
+
+.shoplogo {
+    width: 20px;
+    margin-right: -4.5em
+}
+
+/*zorgt voor standaar grote pngs*/
+
+/* MAIN */
+
+main{ margin:0 30px;}
+
+main h1 {
+    text-align: left;
+    font-size: 24px;
+    color: black;
+    background-color: b;
+    font-weight: normal;
+    line-height: 1.6em;
+    position: relative;
+
+    /*standaar opmaak*/
+}
+main p{
+    position: absolute
+    text-align: left;
+    font-size: 14px;
+    color: black;
+    font-weight: lighter;
+    line-height: 1.6em;
+    margin: 0px 0px 40px 0px;
+}
+.meld{
+/*    position:/absolute;*/
+    background-color: #0071E3;
+    height: 2.5em;
+}
+.door{
+/*    position/: absolute;*/
+    background-color: darkgray;
+    height: 2.5em;
+    margin: }
+
+button{
+    font-size: 24px;
+    color: white;
+    border-radius: 8px;
+    border-color: transparent;
+    display: block;
+    margin: auto;
+    width: 100%;
+    margin: 20px 0px;
+    max-width: 400px;
+}
+
+#section-help{
+    border-bottom: 2px solid #d2d2d7;
+    border-top: 1px solid #d2d2d7;
+
+}
+
+section p{
+    margin: 25px 20px;
+}
+
+
+
+@media (min-width:24em) {
+    main ul {
+        grid-template-columns: repeat( auto-fit, minmax(20em, 1fr));
+    }
+}
