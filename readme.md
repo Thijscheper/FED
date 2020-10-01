@@ -58,7 +58,7 @@ Tot nu toe ziet het er zo uit op mobiel
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+-Het kwam er op neer dat ik goed onderweg was maar wel netjes moest blijven werken. Anders kwamen er domme fouten omhoog. Ook moet ik nog bedenken welke pagina mijn tweede wordt en waar ik me Javascript ga toepassen.-
 
 
 
