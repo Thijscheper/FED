@@ -50,14 +50,23 @@ header nav a {
 
 .shoplogo {
     width: 20px;
-    margin-right: -4.5em
+    height: 25px;
+    margin: auto 0;
+}
+
+#shoppingbag {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5px;
 }
 
 /*zorgt voor standaar grote pngs*/
 
 /* MAIN */
 
-main{ margin:0 30px;}
+main {
+    margin: 0 30px;
+}
 
 main h1 {
     text-align: left;
@@ -70,27 +79,30 @@ main h1 {
 
     /*standaar opmaak*/
 }
-main p{
-    position: absolute
-    text-align: left;
+
+main p {
+    position: absolute text-align: left;
     font-size: 14px;
     color: black;
     font-weight: lighter;
     line-height: 1.6em;
     margin: 0px 0px 40px 0px;
 }
-.meld{
-/*    position:/absolute;*/
+
+.meld {
+    /*    position:/absolute;*/
     background-color: #0071E3;
     height: 2.5em;
 }
-.door{
-/*    position/: absolute;*/
+
+.door {
+    /*    position/: absolute;*/
     background-color: darkgray;
     height: 2.5em;
-    margin: }
+    margin:
+}
 
-button{
+button {
     font-size: 24px;
     color: white;
     border-radius: 8px;
@@ -102,13 +114,13 @@ button{
     max-width: 400px;
 }
 
-#section-help{
+#section-help {
     border-bottom: 2px solid #d2d2d7;
     border-top: 1px solid #d2d2d7;
 
 }
 
-section p{
+section p {
     margin: 25px 20px;
 }
 

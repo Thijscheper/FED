@@ -50,7 +50,8 @@ header nav a {
 
 .shoplogo {
     width: 20px;
-    margin-right: -4.5em
+    height: 25px;
+    margin: auto 0;
 }
 
 /*zorgt voor standaar grote pngs*/
@@ -179,4 +180,38 @@ li:nth-of-type(2) p {
     main ul {
         grid-template-columns: repeat( auto-fit, minmax(20em, 1fr));
     }
+}
+
+.bag {
+    max-width: 500px;
+    height: 280px;
+    display: none;
+    /* padding: 10px 50px; */
+}
+
+.emptyBag {
+    margin: 50px;
+    text-align: center;
+}
+
+.element {
+    width: 80%;
+    margin: 5px auto;
+    /* border-bottom: 1px solid #d2d2d7; */
+    border-top: 1px solid #d2d2d7;
+}
+
+.visible {
+    display: block;
+}
+
+#shoppingbag {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5px;
+}
+
+
+a {
+    text-decoration: none;
 }
