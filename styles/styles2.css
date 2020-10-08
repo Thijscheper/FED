@@ -90,13 +90,13 @@ main p {
 }
 
 .meld {
-    /*    position:/absolute;*/
+        position:/absolute;
     background-color: #0071E3;
     height: 2.5em;
 }
 
 .door {
-    /*    position/: absolute;*/
+        position/: absolute;
     background-color: darkgray;
     height: 2.5em;
     margin:
