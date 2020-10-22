@@ -89,14 +89,14 @@ main p {
     margin: 0px 0px 40px 0px;
 }
 
-.meld {
-        position:/absolute;
+#meld {
+
     background-color: #0071E3;
     height: 2.5em;
 }
 
-.door {
-        position/: absolute;
+#door {
+
     background-color: darkgray;
     height: 2.5em;
     margin:
@@ -121,13 +121,124 @@ button {
 }
 
 section p {
-    margin: 25px 20px;
+    margin: 25px auto;
+    width: 75%;
 }
 
 
 
-@media (min-width:24em) {
-    main ul {
-        grid-template-columns: repeat( auto-fit, minmax(20em, 1fr));
+@media only screen and (min-width:620px) {
+
+    .listItem {
+        margin: 15%;
+        text-align: center;
     }
+    .buttonmain {
+        display: flex;
+
+    }
+    button#door {
+        margin-left: 1%;
+    }
+    button#meld {
+        margin-right: 1%;
+    }
+    main {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+}
+
+img {
+    max-width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+.listItem {
+    position: absolute;
+    margin-left: 5%;
+
+}
+
+ul.listContainer {
+    margin-block-start: 0em;
+    padding-inline-start: 0;
+    width: 95%;
+    margin: 20px auto;
+}
+
+a {
+    position: relative;
+
+    color: seagreen;
+
+    text-decoration: none;
+    outline: none;
+
+}
+
+a::before {
+    content: "";
+    background-color: currentcolor;
+
+    position: absolute;
+
+    left: .5em;
+    right: .5em;
+    bottom: -.25em;
+
+    height: .25em;
+
+    border-radius: .125em;
+
+    transform: scalex(0);
+    transition: .3s;
+}
+
+a:hover::before {
+    transform: scalex(1);
+}
+
+
+a:visited {
+    color: DarkSlateBlue;
+}
+
+a:focus {
+    /* het is best een goed idee om de :focus van een link te laten opvallen */
+    /* als je met de tab-toets door een pagina gaat, zie je dan goed waar je elke keer geland bent */
+    background: LightYellow;
+    /*   color:blue */
+    /* meer - zie ::after */
+}
+
+a:hover {
+    /* nada - zie ::after */
+}
+
+a:active {
+    /* als alles lekker snel gaat zie je dit niet */
+    /* maar des te meer reden om de :active state wel te definieren */
+    /* juist als iets traag verloopt, krijg je dan feedback */
+    color: crimson;
+}
+
+a::after {
+    /*   content:"";
+  position:absolute;
+  left:.25em; bottom:-3px;
+  width:calc(100% - .5em); height:4px;
+  background-color:currentcolor;
+  border-radius:2px;
+  transform:scalex(0);
+  transition:.25s; */
+}
+
+a:focus::after,
+a:hover::after {
+    /*   transform:scalex(1); */
 }

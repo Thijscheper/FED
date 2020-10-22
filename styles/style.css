@@ -127,14 +127,7 @@ main p {
 
 }
 
-main li a {
-    position: absolute;
-    margin-top: 8em;
-    z-index: 1;
-    word-spacing: 3em;
-    text-decoration: none;
-    color: #2997FF;
-}
+
 
 main img {
     width: 70%;
@@ -223,4 +216,34 @@ li:nth-of-type(2) p {
 
 a {
     text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: overline;
+}
+
+a:visited {
+    color: lightblue;
+}
+
+a:active {
+    color: blue;
+
+}
+
+
+.linkProduct {
+    display: flex;
+    position: absolute;
+    margin-top: 30%;
+    width: 50%;
+
+
+}
+
+.linkProduct a {
+    margin: 15px auto;
+    color: #2997FF;
+
 }
