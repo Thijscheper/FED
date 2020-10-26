@@ -143,7 +143,7 @@ section p {
         width: 75%;
         margin: 0 auto;
     }
-
+    /*    zorgt voor afstand tussen buttons #meld en #door. Width zorgt voor de breedte van de knoppen. Overige margins zorgen voor goeie positionering*/
 }
 
 img {
@@ -167,11 +167,23 @@ ul.listContainer {
     margin: 20px auto;
 }
 
+/*
+De margin-block-start CSS-eigenschap definieert de logische blokstartmarge van een element, die wordt toegewezen aan een fysieke marge, afhankelijk van de schrijfmodus, directionaliteit en tekstoriëntatie van het element
+
+The padding-inline-start CSS property defines the logical inline start padding of an element, which maps to a physical padding depending on the element's writing mode, directionality, and text orientation
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/margin-block-start#:~:text=The%20margin%2Dblock%2Dstart%20CSS,%2C%20directionality%2C%20and%20text%20orientation..
+*/
+
 a {
     position: relative;
     text-decoration: none;
     outline: none;
 
+}
+
+a:hover {
+    text-decoration: overline;
 }
 
 a::before {

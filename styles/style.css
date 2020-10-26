@@ -103,6 +103,7 @@ main li:nth-last-of-type(1) {
 main h2:first-of-type {
     text-align: center;
     position: absolute;
+    /*    Van elementen die de eigenschap position met de waarde absolute hebben, wordt de plaats van het element bepaald ten opzichte van de referentiebox welke gevormd wordt door het meest dichtbijgelegen ancestor element, dat de eigenschap position heeft met een andere waarde dan static (bijvoorbeeld absolute of relative).*/
     justify-content: center;
     z-index: 1;
     color: white;
