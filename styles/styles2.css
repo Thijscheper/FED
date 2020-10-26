@@ -28,8 +28,6 @@ header nav li {
     /*    Dit vult de li is helemaal op*/
 }
 
-
-
 header nav a {
     display: block;
     line-height: 2.5em;
@@ -81,7 +79,7 @@ main h1 {
 }
 
 main p {
-    position: absolute text-align: left;
+    text-align: left;
     font-size: 14px;
     color: black;
     font-weight: lighter;
@@ -117,15 +115,13 @@ button {
 #section-help {
     border-bottom: 2px solid #d2d2d7;
     border-top: 1px solid #d2d2d7;
-
+    /*    zorgt voor lijnen*/
 }
 
 section p {
     margin: 25px auto;
     width: 75%;
 }
-
-
 
 @media only screen and (min-width:620px) {
 
@@ -183,20 +179,17 @@ a {
 
 a::before {
     content: "";
-    background-color: currentcolor;
+    background-color: currentColor;
 
     position: absolute;
 
-    left: .5em;
-    right: .5em;
+    left: .2em;
+    right: .2em;
     bottom: -.25em;
-
     height: .25em;
-
     border-radius: .125em;
-
     transform: scalex(0);
-    transition: .3s;
+    transition: .5s;
 }
 
 a:hover::before {
@@ -205,40 +198,9 @@ a:hover::before {
 
 
 a:visited {
-    color: DarkSlateBlue;
+    color: deepskyblue;
 }
 
 a:focus {
-    /* het is best een goed idee om de :focus van een link te laten opvallen */
-    /* als je met de tab-toets door een pagina gaat, zie je dan goed waar je elke keer geland bent */
-    background: LightYellow;
-    /*   color:blue */
-    /* meer - zie ::after */
-}
-
-a:hover {
-    /* nada - zie ::after */
-}
-
-a:active {
-    /* als alles lekker snel gaat zie je dit niet */
-    /* maar des te meer reden om de :active state wel te definieren */
-    /* juist als iets traag verloopt, krijg je dan feedback */
-    color: crimson;
-}
-
-a::after {
-    /*   content:"";
-  position:absolute;
-  left:.25em; bottom:-3px;
-  width:calc(100% - .5em); height:4px;
-  background-color:currentcolor;
-  border-radius:2px;
-  transform:scalex(0);
-  transition:.25s; */
-}
-
-a:focus::after,
-a:hover::after {
-    /*   transform:scalex(1); */
+    color: blue
 }

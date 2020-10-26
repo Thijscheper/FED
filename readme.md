@@ -14,24 +14,29 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+-Ik vond het responsive maken vrij goed gaan, ook had ik een redelijk vlotte start met het menu, daar hiel het huiswerk zeker goed mee. Wat ik lastiger vondt was toch wel het stijlen van sommige elementen. Soms deden ze gewoon niet wat ik wilden en snapte ik het even niet meer. Ook vond ik het soms lastig om bepaalde elementen op te roepen. -
 
 **Screenshot(s):**
 
 -screenshot(s) van je eindresultaat-
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/sspagina3.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/sspagina31.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/sspagina32.png)
+
 
 
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
-
+-Deze week heb ik een redelijk deel van mijn 2de pagina verbeterd, ook ben ik bijna klaar met mijn dropdown menu, alleen die kan ik nog niet laten zien. Ook ben ik begonnen met het responsive maken van de pagina's
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/sspagina22.png)
 
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
-
+-In deze voortgang ben ik nog niet veel verder gekomen, wel had ik ondertussen en klein beetje gewerkt aan mijn tweede pagina,alleen vind ik het lastig om ze goed te positioneren -
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/sspagina2.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/sspagina21.png)
 
 
 ## Voortgang 1 (week 3)
