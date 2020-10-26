@@ -7,6 +7,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Bronnenlijst
 1. -Ik heb voornamelijk gebruik gemaakt van de hulp van mede-studenten-
+2. -https://developer.mozilla.org/en-US/docs/Web/CSS/margin-block-start#:~:text=The%20margin%2Dblock%2Dstart%20CSS,%2C%20directionality%2C%20and%20text%20orientation..- voor uitleg
+3.  -https://www.handleidinghtml.nl/css/css-oud/position.htm#:~:text=Van%20elementen%20die%20de%20eigenschap,(bijvoorbeeld%20absolute%20of%20relative).- voor uitleg
 
 
 
