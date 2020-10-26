@@ -13,7 +13,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Eindgesprek (week 7/8)
 
--Ik vond het responsive maken vrij goed gaan, ook had ik een redelijk vlotte start met het menu, daar hiel het huiswerk zeker goed mee. Wat ik lastiger vondt was toch wel het stijlen van sommige elementen. Soms deden ze gewoon niet wat ik wilden en snapte ik het even niet meer. Ook vond ik het soms lastig om bepaalde elementen op te roepen. -
+-Ik vond het responsive maken vrij goed gaan, ook had ik een redelijk vlotte start met het menu, daar hielp het huiswerk zeker goed mee. Wat ik lastiger vondt was toch wel het stijlen van sommige elementen. Soms deden ze gewoon niet wat ik wilden en snapte ik het even niet meer. Ook vond ik het soms lastig om bepaalde elementen op te roepen. -
 
 **Screenshot(s):**
 
